@@ -131,7 +131,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:fontFamily="casual"
-            android:text="Normal"
+            android:text="Large"
             android:textColor="@color/colorAccent"
             android:textSize="48sp"
             app:layout_constraintBottom_toBottomOf="parent"

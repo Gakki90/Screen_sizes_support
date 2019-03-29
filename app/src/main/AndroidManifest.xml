@@ -3,7 +3,8 @@
     package="com.example.aoge.skillexchange">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
-
+    <supports-screens
+        android:largeScreens="true"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -57,7 +58,7 @@
         <activity android:name=".MeActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".FirstLoginActivity" >
+        <activity android:name=".LaunchActivity" >
 
         </activity>
         <activity android:name=".OthersIfoActivity" />
@@ -66,7 +67,9 @@
 
         </activity>
         <activity android:name=".GetLocationActivity" />
-        <activity android:name=".LaunchActivity" >
+        <activity android:name=".FirstLoginActivity"
+            android:windowSoftInputMode="adjustPan" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
